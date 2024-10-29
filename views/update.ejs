@@ -1,0 +1,19 @@
+<%- include('./partials/header.ejs') %>
+
+
+<div id="update-user-container">
+
+    
+    <% finduser.forEach(element => { %>
+        <h1>Update user</h1>
+        <form action="/UpdatTheUser/<%=element._id%>" method="post">
+            <input type="text" name="Fname" value="<%= element.Fname %>">
+            <input type="text" name="Lname" value="<%= element.Lname %>">
+            <input type="email" name="Email" value="<%= element.Email %>">
+            <input type="number" name="Age" value="<%= element.Age %>">
+            <input type="submit" value="submit">
+        </form>
+    <% }) %>
+        
+</div>
+<%- include('./partials/footer.ejs') %>

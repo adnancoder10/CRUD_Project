@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#container{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+#form-container{
+    /* border: 2px solid red; */
+    width: 383px;
+    height: 333px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#showing-date-container{
+    /* border: 1px solid red; */
+    width: 700px;
+    margin-top: 50px;   
+}
+.input-container{
+    padding: 12px;   
+}
+
+.input-container input{
+    width: 250px;
+    height: 30px;
+}
+
+#subbtn{
+    width: 100px;
+}
+
+
